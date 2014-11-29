@@ -34,7 +34,7 @@
 			return (typeof number === "number" && !isNaN(number));
 		},
 
-		trigger: function(trigger, nav) {
+		mobileTrigger: function(trigger, nav) {
 			(trigger && nav) ? function() {
 								trigger.on("click", function() {
 									nav.slideToggle();
